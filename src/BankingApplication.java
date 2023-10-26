@@ -6,9 +6,7 @@ public class BankingApplication {
 		
 		BankAccount obj = new BankAccount("SL DevCode", "SL00001");
 		obj.showMenu();	
-
 	}
-
 }
 
 class BankAccount{
