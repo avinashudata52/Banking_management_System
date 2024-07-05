@@ -8,7 +8,6 @@ public class BankingApplication {
 		obj.showMenu();	
 	}
 }
-
 class BankAccount{
 	int balance;
 	int previousTransaction;
@@ -19,8 +18,6 @@ class BankAccount{
 		customerName = cname;
 		customerId = cid;
 	}
-	
-	
 	void deposit(int amount) {
 		if(amount != 0) {
 			balance = balance + amount;
